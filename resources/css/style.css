@@ -1,0 +1,176 @@
+body{
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  top:0;
+  padding: 15px 0;
+  left: 0;
+
+}
+
+h3{
+  font-size: 28px;
+}
+
+
+main{
+  display: flex;
+  position: relative;
+  top:130px;
+  width: 1330px;
+  justify-content: space-around;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+a{
+  color: black;
+}
+
+.timesTag{
+  display: flex;
+  align-items: center;
+}
+
+.timesTag img{
+  margin: 0 15px;
+}
+
+.timesTag span{
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-weight:bold;
+  font-size: 15px;
+}
+.column{
+
+}
+.large{
+  width: 630px;
+}
+
+.medium{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.medium h3 {
+  margin-top: 0;
+}
+
+.small{
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advertise{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 15px;
+  color: DimGray;
+}
+
+.advertise p{
+  border-bottom: 1px solid black;
+}
+
+.mainHead{
+  background-image: url("../images/main.png");
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+h1{
+  margin-left: 10px;
+}
+.article{
+  width: 47%;
+}
+
+.subArticles{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.headlineImage{
+  height: 300px;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.headlineImage h3{
+  width: 70%;
+}
+
+
+.first{
+  background-image: url("../images/story-2.png");
+}
+.second{
+  background-image: url("../images/story-3.png");
+}
+
+.third{
+  background-image: url("../images/story-1.png");
+}
+
+footer{
+  position: relative;
+  top:200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+
+
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footerNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+footer span{
+  font-family: Georgia;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+}
+#fixMargin{
+  margin-right: 0;
+}
+
+footer p{
+
+}
